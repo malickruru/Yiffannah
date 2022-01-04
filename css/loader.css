@@ -68,3 +68,20 @@
 .hidden {
   z-index: -1000;
 }
+
+@media screen and (max-width: 720px) {
+  .progress {
+    width: 300px;
+    height: 300px;
+  }
+
+  .progress img {
+    width: 200px;
+    height: auto;
+  }
+
+  .progress div {
+    width: 310px;
+    height: 310px;
+  }
+}
